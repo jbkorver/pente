@@ -1,0 +1,63 @@
+body {background:#ffffff; color:#505050; font:14px Helvetica, sans-serif;width:1400px;  font-family: "Open Sans",sans-serif;  font-weight: 400; font-size: 14px;line-height: 1.8;}
+
+#theGreatBoarder{width:968px;height:968px;padding:0px;position:relative;border:2px #666666 solid;overflow:hidden;background-color:#3e779d;float:left;}
+#theBoard{width:866px;height:866px;background-color:#FFFAF0;margin:48px;padding:0px;position:relative;border: 2px #666666 solid;}
+#innerBoard {width:816px;height:816px;background-color:#FFFAF0;margin:23px;padding:0px;position:relative;}
+#sidePanel {width:150px;height:952px;float:left;margin:0px;padding:0 10px;}
+#button-box {height:288px;position:absolute;top:350px;}
+#player2Captures {height:252px;position:absolute;bottom:12px;}
+.rowBuffer {height:48px;background-color:#FFFAF0;padding:0 23px;position:absolute;top:0px;left:0px;float:left;}
+.columnBuffer {width:48px;background-color:#ddffdd;padding:23px 0 ;position:absolute;top:0px;left:0px;float:left;}
+.intersection {width:48px;height:48px;background-color:#FFFAF0;float:left;margin:0px;padding:0;position:relative;z-index:50;}
+.vLine {width:2px;height:48px;margin:0 23px 0 23px;background-color:#666666;z-index:10;position:absolute;top:0px;left:0px;}
+.hLine {height:2px;width:48px;margin:23px 0 23px 0;background-color:#666666;z-index:10;position:absolute;top:0px;left:0px;}
+.vMedian {width:4px;height:48px;margin:0 22px 0 22px;background-color:#666666;z-index:10;position:absolute;top:0px;left:0px;}
+.hMedian {height:4px;width:48px;margin:22px 0 22px 0;background-color:#666666;z-index:10;position:absolute;top:0px;left:0px;}
+.vExtendedLine {width:2px;height:100%;margin:0 46px 0 46px;background-color:#666666;z-index:10;position:absolute;left:0px;top:0px;}
+.hExtendedLine {height:2px;width:100%;margin:46px 0 46px 0;background-color:#666666;z-index:10;position:absolute;top:0px;top:0px;}
+.marble {border-radius: 50%;z-index:52;position:absolute;top:8px;left:8px;width:calc(100% - 16px);height:calc(100% - 16px);visibility:hidden;}
+#WhoseUpBox {width:48px;height:48px;margin:0px;padding:0;position:relative;z-index:50;float:left;}
+#WhoseUpMarble {border-radius: 50%;z-index:52;position:absolute;top:8px;left:8px;width:calc(100% - 16px);height:calc(100% - 16px);visibility:visible;background-color:#B0E0E6}
+.capturedMarble {border-radius: 50%; z-index:50;position:absolute;top:8px;left:8px;width:calc(100% - 16px);height:calc(100% - 16px);visibility:visible;background-color:#fafafa;float:left;}
+.clear {clear:both;}
+.captureBox {width:48px;height:48px;position:relative;float:left;}
+.repository {border-radius: 50%; background-color:#1b435e;height:288px;width:288px;position:absolute;z-index:90;}
+.diamond { width:4px;height:4px;background-color:#FFFAF0;z-index:51;border:2px solid #666666;position:absolute;pointer-events: none;-ms-transform: rotate(45deg); -webkit-transform: rotate(45deg); transform: rotate(45deg); }
+.dialog {visibility:hidden;position:relative;left:250px; margin-bottom:10px;height:400px; width:500px; 
+	-moz-box-shadow: 0 0 5px 5px #777; -webkit-box-shadow: 0 0 5px 5px#777; box-shadow: 0 0 5px 5px #777;min-width:525px; z-index: 102}
+.dialogContent {position:absolute;top:0px;left:0px;background:#ffffff;width:calc(100% - 20px);height:calc(100% - 20px);opacity:1;padding:10px 10px 10px 10px; overflow:auto;}
+.dialogTitle {font-weight:bold;vertical-align:top;}
+.dialogContinueButton {position:absolute;bottom:10px;right:80px;height:20px;}
+.dialogCancelButton {position:absolute;right:10px;bottom:10px;height:20px;}
+.buttonContainer{ margin:10px;clear:all;}
+.button {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 4.5px 9px;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 12px;
+   font-family:"Open Sans",sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }

@@ -1,0 +1,87 @@
+body {background: #ffffff;font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 15pt;color: #666;font-weight: normal;line-height:normal;padding:0px;margin:20px 0 0 20px;}
+a:link {color: #6495ed; text-decoration: none; }
+a:active {color: #6495ed; text-decoration: none; }
+a:visited {color: #6495ed;}
+a:hover {color: #a4c0f4;}
+
+#worksheet {width:900px;border:thin solid #999;margin:16px;padding:10px;}
+#left {width:620px;float:left;padding:10px;clear:both;}
+#right {width:340px;float:left;}
+.header {margin:20px 0 0 0;font-size:17px;}
+.header img {margin:0 10px 0 0;}
+.triangle {width: 12px;}
+#watermark img {  opacity: 0.03; filter: alpha(opacity=3); width:330px; }
+#watermark {position:fixed;}
+#footer {clear:both;width:1000px;}
+#footer img {width:70px; padding:0 30px 0px 0;margin-top:-60px;float:right;}
+.section {height:0px;width:calc(100% - 30px);display:block;overflow:hidden;font-size:14px;margin:10px 10px 30px 0px;}
+#content {min-height:900px;width:1000px;}
+#pageTitle {text-align:left;font-style:bold;margin:0 0 30px 0;float:left;}
+.titleExtension {float:left;font-size:17px;font-style:italic;margin:4px 0 0 50px;}
+.formLine {clear:both;margin-bottom:20px;}
+#adminContents .formLine {margin-bottom:15px;}
+.messageText {font-style:italic;color:#bbbbbb;}
+.warningText {font-style:italic;color:#c70039;}
+input {padding:0 0 0 5px;font-size:medium;}
+button {border-radius: 6px;height:24px;}
+#worksheets {font-size:16px;}
+.worksheetRow {width:600px;height:30px;line-height:30px;clear:both;width:100%}
+.tc {float:left;padding:0 0 0 5px;overflow:hidden;}
+.tc_date {width:135px;}
+.tc_labor {width:150px;}
+.tc_location {width:250px;}
+.table {border: thin solid #999999;margin:10px 0 0 0px;font-size:13px;overflow:hidden;}
+.tableheader {background-color:#cccccc;height:20px;width:100%;padding-top:10px;border-bottom:thin solid #999999;font-weight:bold;}
+.tc_name {width:210px;}
+.tc_clock_in {width:60px;}
+.tc_clock_out {width:85px;}
+.tc_lunch_start {width:60px;}
+.tc_lunch_finish {width:85px;}
+.tc_notes {width:350px;}
+.tc_icons {width:30px;}
+.tc_flavors {width:182px;}
+.tc_inventory_start {width:240px;text-align:center;}
+.tc_inventory_mid {width:240px;text-align:center;}
+.tc_inventory_end {width:235px;text-align:center;}
+.tc_mc {width:63px;min-height:20px;}
+.tc_item_name {width:205px;}
+.tc_requirements {width:192px;}
+.tc_itemcount_start {width:218px;}
+.tc_itemcount_end {width:218px;}
+.tc_more {width:40px;}
+#worksheetsAvailable {clear:both;margin:30px 0 0 10px;}
+#adminContents {clear:both;margin:40px 0 0 20px;font-size:15px;}
+#addEmployeeBox {margin:30px 0 20px 10px;}
+select {font-size:14px;}
+input[type=time] {width:120px;font-family: Verdana, Arial, Helvetica, sans-serif;font-size:14px;}
+input[type=number] {width:55px;height:30px;}
+input[type=text] {font-family: Verdana, Arial, Helvetica, sans-serif;font-size:14px;}
+.bottomline {border-bottom:solid thin #ddd;}
+#editInventoryIcon {width:34px;cursor:pointer;margin-top:-5px;}
+#editSampleInventoryIcon {width:34px;cursor:pointer;margin-top:-5px;}
+#saveInventoryIcon {width:34px;cursor:pointer;display:none;margin-top:-5px;}
+#saveSampleInventoryIcon {width:34px;cursor:pointer;display:none;margin-top:-5px;}
+#closeInventoryIcon {width:23px;cursor:pointer;display:none;margin:10px 0 0 5px;}
+#closeSampleInventoryIcon {width:23px;cursor:pointer;display:none;margin:10px 0 0 5px;}
+#closeSuitcaseInventoryIcon {width:23px;cursor:pointer;display:none;margin:10px 0 0 5px;}
+#editSuitcaseInventoryIcon {width:34px;cursor:pointer;margin-top:-5px;}
+#saveSuitcaseInventoryIcon {width:34px;cursor:pointer;display:none;margin-top:-5px;}
+#nonprod_inv_more {}
+.pad10 {margin:10px;}
+#roadshowDate {float:left;margin:0 0 0 10px;width:102px;height:25px;}
+#expandImg {display:block;width:26px;float:right;margin:-5px 40px 0 0;}
+#collapseImg {display:none;width:26px;float:right;margin:-5px 40px 0 0;}
+#sendEmailBtn {margin:30px 0 0px 8px;height:30px;}
+#sendEmailWarningPopup {position:fixed; top:120px; left:calc(50% - 320px); width:640px; height:410px; z-index:110; font-size:15px;}
+.modalBackground {filter: alpha(opacity=50); opacity: 0.5; position: fixed; left: 0;  top: 0;  width: 100%; height: 100%; background-color: #999999; z-index: 101; display:none;}
+.DialogContent {position:absolute;top:0px;left:0px;background:#ffffff;width:calc(100% - 20px);height:calc(100% - 20px);opacity:1;padding:10px; overflow:auto;}
+.dialog {display:none;position:fixed;top:180px; width:100%;height:100%; -moz-box-shadow: 0 0 1px 1px #666; 
+	-webkit-box-shadow: 0 0 1px 1px #666; box-shadow: 0 0 1px 1px #666;z-index: 102}
+#formBox {float:left;width:300px;}
+#needMoreBox {float:left;width:600px;}
+#expenseBox {width:50%;float:left;background-color:#ffddff;}
+#totalsBox {width:50%;float:left;background-color:#ddffdd;}
+.label {width:240px;float:left;}
+.value {float:left;}
+.expenseLine {clear:both;margin:0 0 5px 0;}
+.moneyColumn {width:100px;text-align:right;}
